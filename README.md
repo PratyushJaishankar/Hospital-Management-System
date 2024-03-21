@@ -14,7 +14,8 @@ Clone the repository:
     ```
     git clone https://github.com/PratyushJaishankar/Hospital-Management-System.git
     ```
-INstall the requirements:
+    
+Install the requirements:
     ```
     pip install -r requirements.txt
     ```
