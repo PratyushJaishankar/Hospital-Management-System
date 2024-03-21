@@ -1,33 +1,49 @@
-Hospital Management System
+# Hospital Management System
+
 The Hospital Management System is a database management project developed using MySQL and Python Streamlit for the frontend. It provides a comprehensive solution for managing various aspects of hospital administration, including patient records, appointment scheduling, medical history, staff information, and more.
 
-Features:
-Patient Management: Register, admit, and discharge patients with ease.
-Appointment Scheduling: Schedule appointments for patients with doctors efficiently.
-Search Functionality: Easily search for patients or doctors by ID or name.
-Edit Patient and Doctor Information: Update details and make modifications as necessary.
-Appointment History: Maintain a history of all appointments made, preserving records even after deletion.
+## Requirements
+- Python 3.11
+- MySQL
+- Streamlit
+- mysql-connector-python
 
-Technologies Used:
-Database: MySQL
-Frontend: Python Streamlit
+## Installation
 
-Installation
 Clone the repository:
+    ```
+    git clone https://github.com/PratyushJaishankar/Hospital-Management-System.git
+    ```
+INstall the requirements:
+    ```
+    pip install -r requirements.txt
+    ```
 
-Copy code
-git clone https://github.com/your_username/hospital-management-system.git
 
-Install the required dependencies:
 
-pip install -r requirements.txt
+## Usage
 
-Run the application:
-streamlit run app.py
+1. Run the main script :
+    ```
+    sublit run crud.py
+    ```
+2. The browser will open, and the frontend will start appearing.
 
-Contributors
-John Doe (@johndoe)
-Jane Smith (@janesmith)
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Files
+
+- `crud.py`: Main file which contains the code.
+- `operation.py`: Contains all the Functions.
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributions
+
+Contributions are welcome! Feel free to submit issues or pull requests to help improve this project.
+
+## Contact
+
+For any inquiries or suggestions, please feel free to contact [pratjai97@gmail.com](mailto:pratjai97@gmail.com).
